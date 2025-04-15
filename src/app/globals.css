@@ -43,16 +43,16 @@ body {
   color: #000 !important;
 }
 
-/* 調整 navbar 至頂時的背景顏色 */
+/* 將 navbar 配置為淺色背景 */
 .sticky.top-0 {
-  background-color: #1a202c; /* 深灰色背景 */
-  color: #ffffff; /* 白色文字 */
+  background-color: #f8f9fa; /* 淺灰色背景 */
+  color: #000; /* 黑色文字 */
 }
 
 .sticky.top-0 a {
-  color: #ffffff; /* 白色連結文字 */
+  color: #000; /* 黑色連結文字 */
 }
 
 .sticky.top-0 a:hover {
-  color: #63b3ed; /* 淺藍色連結文字在懸停時 */
+  color: #007bff; /* 藍色連結文字在懸停時 */
 }

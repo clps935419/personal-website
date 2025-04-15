@@ -40,8 +40,8 @@ export default function Home() {
       </header>
 
       <main>
-        {/* 首頁橫幅 Hero Section */}
-        <section className="bg-gradient-to-r from-blue-500 to-indigo-600 text-white py-20">
+        {/* 首頁橫幅 Hero Section - 設定線性漸層顏色 */}
+        <section className="bg-gradient-to-r from-blue-300 to-indigo-400 text-white py-20">
           <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row items-center justify-between">
               <div className="md:w-1/2 mb-10 md:mb-0">
@@ -56,7 +56,7 @@ export default function Home() {
                   立即LINE諮詢
                 </a>
               </div>
-              <div className="md:w-2/5">
+              <div className="w-full md:w-2/5">
                 <div className="bg-white rounded-lg shadow-xl p-6 text-gray-800">
                   <h2 className="text-2xl font-bold mb-4 text-center">專業服務</h2>
                   <ul className="space-y-3">
