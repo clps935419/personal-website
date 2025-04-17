@@ -6,9 +6,17 @@ import { MailOutlined, PhoneOutlined, MessageOutlined } from '@ant-design/icons'
 
 const { TextArea } = Input;
 
+// 定義表單數據介面
+interface ContactFormValues {
+  name: string;
+  email: string;
+  subject: string;
+  message: string;
+}
+
 export default function ContactForm() {
   // 表單提交函數
-  const onFinish = (values: any) => {
+  const onFinish = (values: ContactFormValues) => {
     console.log('表單資料:', values);
     // 這裡可以添加 API 呼叫來處理表單提交
   };
