@@ -7,8 +7,8 @@ WORKDIR /app
 # 複製 package.json 和 package-lock.json
 COPY package.json package-lock.json ./
 
-# 安裝生產環境依賴
-RUN npm install --production
+# 安裝所有依賴（包括開發依賴）
+RUN npm install
 
 # 複製專案檔案
 COPY . .
