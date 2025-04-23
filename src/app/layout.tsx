@@ -10,16 +10,24 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Leonard | 專業網站開發與架設服務",
-  description: "專業提供前後端網站開發、網站架設與 Line 聊天機器人開發服務，為您的業務打造最佳數位解決方案。",
-  keywords: "網站開發, 前端開發, 後端開發, 架站服務, Line 聊天機器人, 網頁設計",
+  title: "里納德程式小幫手｜高雄屏東網站開發、架站、Line 機器人專家",
+  description: "里納德程式小幫手專注於高雄、屏東地區，提供專業前後端網站開發、網站架設、Line 聊天機器人與數位轉型顧問服務，協助企業打造高效數位解決方案，提升品牌競爭力。",
+  keywords: "高雄網站開發, 屏東網站開發, 網站架設, 前端開發, 後端開發, Line 聊天機器人, 網頁設計, 數位轉型, 小型企業網站, RWD, SEO, 客製化開發",
   openGraph: {
-    title: "Leonard | 專業網站開發與架設服務",
-    description: "專業提供前後端網站開發、網站架設與 Line 聊天機器人開發服務，為您的業務打造最佳數位解決方案。",
-    url: "https://leonard-services.com", 
-    siteName: "Leonard 專業網站服務",
+    title: "里納德程式小幫手｜高雄屏東網站開發、架站、Line 機器人專家",
+    description: "高雄、屏東專業網站開發、架站、Line 聊天機器人與數位顧問服務，協助企業數位升級。",
+    url: "http://leonardtechsolutions.com/",
+    siteName: "里納德程式小幫手 Leonard Tech Solutions",
     locale: "zh_TW",
     type: "website",
+    images: [
+      {
+        url: "/logo.jpg",
+        width: 1200,
+        height: 630,
+        alt: "里納德程式小幫手 Logo"
+      }
+    ]
   },
 };
 
